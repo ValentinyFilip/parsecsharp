@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>ParsecSharp</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Filip Valentíny</Authors>
+        <Description>A C# library for parser combinators inspired by nom.</Description>
+        <PackageTags>parser, combinators, csharp</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Result\"/>
+        <Folder Include="Parsers\" />
+        <Folder Include="Combinators\"/>
+        <Folder Include="Utilities\"/>
+    </ItemGroup>
+
+</Project>
