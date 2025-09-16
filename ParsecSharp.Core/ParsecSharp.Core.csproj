@@ -12,10 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Result\"/>
         <Folder Include="Parsers\" />
-        <Folder Include="Combinators\"/>
-        <Folder Include="Utilities\"/>
     </ItemGroup>
 
 </Project>
